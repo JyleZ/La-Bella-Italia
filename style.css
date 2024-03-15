@@ -1,0 +1,32 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer--bg {
+  background-color: #a3a3a3;
+}
+
+.om-oss {
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .home__thumbnail {
+    height: 800px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__thumbnail {
+    height: 700px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 580px) {
+  .home__thumbnail {
+    height: 500px;
+    object-fit: cover;
+  }
+}

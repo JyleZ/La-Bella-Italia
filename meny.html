@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <title>La Bella Italia</title>
+  </head>
+  <body>
+    <div class="wrapper container">
+      <div class="row">
+        <!-- NAVBAR -->
+
+        <div class="col-12 col-lg-6 order-lg-2">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-white">
+              <div class="container justify-content-end text-end">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse justify-content-center"
+                  id="navbarNavDropdown"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <!-- Länk 1 -->
+                      <a class="nav-link" href="Index.html">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                      <!-- Länk 2 -->
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="meny.html"
+                        >Meny</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <!-- Länk 3 -->
+                      <a class="nav-link" href="viner.html">Viner</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <!-- Länk Dropdown -->
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Mer info
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <!-- Dropdownlänk 1 -->
+                          <a class="dropdown-item" href="om-oss.html">Om oss</a>
+                        </li>
+                        <li>
+                          <!-- Dropdownlänk 2 -->
+                          <a class="dropdown-item" href="kontakt.html"
+                            >Kontakt</a
+                          >
+                        </li>
+                        <li>
+                          <!-- Dropdownlänk 3 -->
+                          <a class="dropdown-item" href="hitta-hit.html"
+                            >Hitta hit</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="boka-bord.html"
+                            >Boka bord</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- SLUT PÅ NAVBAR -->
+          <!-- RUBRIK -->
+
+          <h1 class="text-uppercase text-center mt-4">MENY</h1>
+          <hr />
+
+          <div class="row">
+            <div class="container-fluid my-5 py-2 text-center">
+              <!-- COLLAPSE ANTIPASTI -->
+              <h5 class="text-uppercase pt-4 mb-4 d-inline mx-3">Antipasti</h5>
+              <button
+                class="btn btn-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseAntipasti"
+                aria-expanded="false"
+                aria-controls="collapseAntipasti"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-bar-down"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"
+                  />
+                </svg>
+              </button>
+
+              <div class="collapse" id="collapseAntipasti">
+                <div class="card card-body">
+                  <!-- Rätt 1 -->
+                  <h6 class="mb-0">CAPESANTE GRATINATE</h6>
+                  <p class="mb-0">
+                    Gratinerad pilgrimsmussla med västerbottenssmör, panko och
+                    regnbågsrom.
+                  </p>
+                  <p class="fs-6 fst-italic mb-0">
+                    //Gratinated scallop with flavored butter, breadcrumbs and
+                    caviar.
+                  </p>
+                  <p class="mb-4">Pris: 55:-/st</p>
+
+                  <!-- Rätt 2 -->
+                  <h6 class="mb-0">BRUSCHETTA POMODORO</h6>
+                  <p class="mb-0">
+                    Grillat surdegsbröd med vitlök, tomater, basilika, olivolja
+                    och picklad rödlök.
+                  </p>
+                  <p class="fs-6 fst-italic mb-0">
+                    //Sourdough bread with garlic, tomatoes, basil, olive oil
+                    and pickled onion.
+                  </p>
+                  <p class="mb-4">Pris: 135:-</p>
+
+                  <!-- Rätt 3 -->
+                  <h6 class="mb-0">BURRATA</h6>
+                  <p class="mb-0">
+                    Burrata med hasselnötspesto, semitorkade cocktailtomater och
+                    ruccola.
+                  </p>
+                  <p class="fs-6 fst-italic mb-0">
+                    //Burrata with hazelnut pesto, semi-dried cocktail tomatoes
+                    and arugula.
+                  </p>
+                  <p class="mb-4">Pris: 155:-</p>
+
+                  <!-- Rätt 4 -->
+                  <h6 class="mb-0">CARPACCIO</h6>
+                  <p class="mb-0">
+                    Tunt skivad oxfilé som toppas med ruccola, citron,
+                    parmesankräm och brödkrutonger.
+                  </p>
+                  <p class="fs-6 fst-italic mb-0">
+                    //Thinly sliced fillet of beef. Topped with arugula, lemon,
+                    parmesan creme and bread croutons.
+                  </p>
+                  <p class="mb-4">Pris: 175:-</p>
+
+                  <!-- Rätt 5 -->
+                  <h6 class="mb-0">ANTIPASTO MISTO</h6>
+                  <p class="mb-0">
+                    Italienska charkuterier och ost. För 1 person.
+                  </p>
+                  <p class="fs-6 fst-italic mb-0">
+                    //Mixed italian cold cuts and chees.
+                  </p>
+                  <p class="mb-4">Pris: 180:-</p>
+                </div>
+              </div>
+
+              <!-- Antipasti slut -->
+              <!-- COLLAPSE Contorini -->
+
+              <div class="container-fluid my-5 py-2 text-center">
+                <h5 class="text-uppercase pt-4 mb-4 d-inline mx-3">
+                  Contorini
+                </h5>
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseContorini"
+                  aria-expanded="false"
+                  aria-controls="collapseContorini"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-bar-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"
+                    />
+                  </svg>
+                </button>
+
+                <div class="collapse" id="collapseContorini">
+                  <div class="card card-body">
+                    <!-- Rätt 1 -->
+                    <h6 class="mb-0">CAPESANTE GRATINATE</h6>
+                    <p class="mb-0">
+                      Gratinerad pilgrimsmussla med västerbottenssmör, panko och
+                      regnbågsrom.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Gratinated scallop with flavored butter, breadcrumbs and
+                      caviar.
+                    </p>
+                    <p class="mb-4">Pris: 55:-/st</p>
+
+                    <!-- Rätt 2 -->
+                    <h6 class="mb-0">BRUSCHETTA POMODORO</h6>
+                    <p class="mb-0">
+                      Grillat surdegsbröd med vitlök, tomater, basilika,
+                      olivolja och picklad rödlök.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Sourdough bread with garlic, tomatoes, basil, olive oil
+                      and pickled onion.
+                    </p>
+                    <p class="mb-4">Pris: 135:-</p>
+
+                    <!-- Rätt 3 -->
+                    <h6 class="mb-0">BURRATA</h6>
+                    <p class="mb-0">
+                      Burrata med hasselnötspesto, semitorkade cocktailtomater
+                      och ruccola.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Burrata with hazelnut pesto, semi-dried cocktail
+                      tomatoes and arugula.
+                    </p>
+                    <p class="mb-4">Pris: 155:-</p>
+
+                    <!-- Rätt 4 -->
+                    <h6 class="mb-0">CARPACCIO</h6>
+                    <p class="mb-0">
+                      Tunt skivad oxfilé som toppas med ruccola, citron,
+                      parmesankräm och brödkrutonger.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Thinly sliced fillet of beef. Topped with arugula,
+                      lemon, parmesan creme and bread croutons.
+                    </p>
+                    <p class="mb-4">Pris: 175:-</p>
+
+                    <!-- Rätt 5 -->
+                    <h6 class="mb-0">ANTIPASTO MISTO</h6>
+                    <p class="mb-0">
+                      Italienska charkuterier och ost. För 1 person.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Mixed italian cold cuts and chees.
+                    </p>
+                    <p class="mb-4">Pris: 180:-</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Contorini slut -->
+
+              <!-- COLLAPSE Pizza -->
+
+              <div class="container-fluid my-5 py-2 text-center">
+                <h5 class="text-uppercase pt-4 mb-4 d-inline mx-3">Pizza</h5>
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsePizza"
+                  aria-expanded="false"
+                  aria-controls="collapsePizza"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-bar-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"
+                    />
+                  </svg>
+                </button>
+
+                <div class="collapse" id="collapsePizza">
+                  <div class="card card-body">
+                    <!-- Rätt 1 -->
+                    <h6 class="mb-0">MARGERITA</h6>
+                    <p class="mb-0">Tomat & ost</p>
+                    <p class="fs-6 fst-italic mb-0">//Tomato and cheese</p>
+                    <p class="mb-4">Pris: 145:-</p>
+
+                    <!-- Rätt 2 -->
+                    <h6 class="mb-0">VESUVIO</h6>
+                    <p class="mb-0">Tomat, ost & skinka</p>
+                    <p class="fs-6 fst-italic mb-0">//Tomato, cheese and ham</p>
+                    <p class="mb-4">Pris: 155:-</p>
+
+                    <!-- Rätt 3 -->
+                    <h6 class="mb-0">CALZONE</h6>
+                    <p class="mb-0">Tomat, ost & skinka, dubbelvikt</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese and ham, folded
+                    </p>
+                    <p class="mb-4">Pris: 155:-</p>
+
+                    <!-- Rätt 4 -->
+                    <h6 class="mb-0">CAPRICCIOSA</h6>
+                    <p class="mb-0">Tomat, ost, skinka & champinjoner</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, ham and mushrooms
+                    </p>
+                    <p class="mb-4">Pris: 160:-</p>
+
+                    <!-- Rätt 5 -->
+                    <h6 class="mb-0">CACCIATORA</h6>
+                    <p class="mb-0">Tomat, ost & kryddig salami</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese and spicy salami
+                    </p>
+                    <p class="mb-4">Pris: 170:-</p>
+
+                    <!-- Rätt 6 -->
+                    <h6 class="mb-0">MARINARA</h6>
+                    <p class="mb-0">Tomat, ost, räkor, tonfisk & musslor</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, tuna, shrimps and mussels
+                    </p>
+                    <p class="mb-4">Pris: 170:-</p>
+
+                    <!-- Rätt 7 -->
+                    <h6 class="mb-0">SICILIANA</h6>
+                    <p class="mb-0">
+                      Tomat, ost, sardeller, kapris, oliver & vitlök
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, sardines, caper, olives and garlic
+                    </p>
+                    <p class="mb-4">Pris: 170:-</p>
+
+                    <!-- Rätt 8 -->
+                    <h6 class="mb-0">QUATTRO STAGIONI</h6>
+                    <p class="mb-0">
+                      Tomat, ost, skinka, champinjoner, räkor & musslor
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, ham, mushrooms, shrimps and mussels
+                    </p>
+                    <p class="mb-4">Pris: 170:-</p>
+
+                    <!-- Rätt 9 -->
+                    <h6 class="mb-0">PIZZA BIANCO, QUATTRO FORMAGGIO</h6>
+                    <p class="mb-0">
+                      Ost, gorgonzola, taleggio, parmesan valnötter & basilika
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Cheese, gorgonzola, taleggio, parmesan, walnuts & basil
+                    </p>
+                    <p class="mb-4">Pris: 170:-</p>
+
+                    <!-- Rätt 10 -->
+                    <h6 class="mb-0">VEGETARIANA</h6>
+                    <p class="mb-0">
+                      Tomat, ost, champinjoner, oliver, pesto, färska tomater &
+                      ruccola
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, mushrooms, olives, pesto, fresh tomatoes
+                      and arugula
+                    </p>
+                    <p class="mb-4">Pris: 180:-</p>
+
+                    <!-- Rätt 11 -->
+                    <h6 class="mb-0">MARIO</h6>
+                    <p class="mb-0">
+                      Tomat, ost, salami, champinjoner, lök, vitlök, peperoni &
+                      gorgonzola
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, mushrooms, onion, garlic, peperoni and
+                      gorgonzola
+                    </p>
+                    <p class="mb-4">Pris: 220:-</p>
+
+                    <!-- Rätt 12 -->
+                    <h6 class="mb-0">BOSCO DI PARMA</h6>
+                    <p class="mb-0">
+                      Tomat, ost, champinjoner, vitlök, färska tomater,
+                      parmaskinka & ruccola
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, mushrooms, fresh tomatoes, garlic, parma
+                      ham and arugula
+                    </p>
+                    <p class="mb-4">Pris: 220:-</p>
+
+                    <!-- Rätt 13 -->
+                    <h6 class="mb-0">PIZZA BIANCO CON TARTUFO</h6>
+                    <p class="mb-0">
+                      Ost, mascarpone, svart tryffelkräm, champinjoner,
+                      kronärtskocka & ruccola
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Cheese, mascarpone cheese, black truffle creme,
+                      mushrooms, artichoke & arugula
+                    </p>
+                    <p class="mb-4">Pris: 220:-</p>
+
+                    <!-- Rätt 14 -->
+                    <h6 class="mb-0">BRESAOLA</h6>
+                    <p class="mb-0">
+                      Tomat, ost, lufttorkat nötkött, citon, peppar, ruccola &
+                      parmesanost
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, air dried beef, lemon, pepper, arugula
+                      and parmesan cheese
+                    </p>
+                    <p class="mb-4">Pris: 220:-</p>
+
+                    <!-- Rätt 15 -->
+                    <h6 class="mb-0">DIAVOLA</h6>
+                    <p class="mb-0">
+                      Tomat, ost, oxfilé, champinjoner, vitlök & chili
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, fillet of beef, mushrooms, garlic &
+                      chili
+                    </p>
+                    <p class="mb-4">Pris: 230:-</p>
+
+                    <!-- Rätt 16 -->
+                    <h6 class="mb-0">AL FILETTO</h6>
+                    <p class="mb-0">Tomat, ost, oxfilé, lök & bearnaisesås</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Tomato, cheese, fillet of beef, onion and bearnaise
+                      sauce
+                    </p>
+                    <p class="mb-4">Pris: 230:-</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Pizza slut -->
+
+              <!-- COLLAPSE Pasta -->
+
+              <div class="container-fluid my-5 py-2 text-center">
+                <h5 class="text-uppercase pt-4 mb-4 d-inline mx-3">Pasta</h5>
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsePasta"
+                  aria-expanded="false"
+                  aria-controls="collapsePasta"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-bar-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"
+                    />
+                  </svg>
+                </button>
+
+                <div class="collapse" id="collapsePasta">
+                  <div class="card card-body">
+                    <!-- Rätt 1 -->
+                    <h6 class="mb-0">LASAGNE AL FORNO</h6>
+                    <p class="mb-0">Klassisk lasagne med köttfärssås.</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Classic lasagna with minced meat sauce.
+                    </p>
+                    <p class="mb-4">Pris: 170:-</p>
+
+                    <!-- Rätt 2 -->
+                    <h6 class="mb-0">PUTTANESCA</h6>
+                    <p class="mb-0">
+                      Pasta med oliver, lök, vitlök, sardeller, cocktailtomater,
+                      kapris och persilja.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Pasta with olives, onion, garlic, anchovise, cocktail
+                      tomatoes, caper and parsley.
+                    </p>
+                    <p class="mb-4">Pris: 195:-</p>
+
+                    <!-- Rätt 3 -->
+                    <h6 class="mb-0">PASTA FUNGHI</h6>
+                    <p class="mb-0">
+                      Skogschampinjoner, grädde, lök, vitlök, salladslök,
+                      parmaskinka och parmesanost.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Mushroom, cream, onion, garlic, green onion, parma ham
+                      and parmesan cheese.
+                    </p>
+                    <p class="mb-4">Pris: 225:-</p>
+
+                    <!-- Rätt 4 -->
+                    <h6 class="mb-0">PASTA POLLO</h6>
+                    <p class="mb-0">
+                      Kyckling, grädde, lök, vitlök, soltorkade tomater, spenat
+                      och citron.Toppas med parmesanost och pinjenötter.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Chicken fillet, cream, onion, garlic, sun-dried
+                      tomatoes, spinach and lemon. Topped with parmesan cheese
+                      and pine nuts.
+                    </p>
+                    <p class="mb-4">Pris: 225:-</p>
+
+                    <!-- Rätt 5 -->
+                    <h6 class="mb-0">RISOTTO</h6>
+                    <p class="mb-0">
+                      Risotto med blandad svamp och tryffel. Toppas med
+                      parmesanost.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Risotto with mushrooms and truffle. Topped with parmesan
+                      cheese.
+                    </p>
+                    <p class="mb-4">Pris: 225:-</p>
+
+                    <!-- Rätt 6 -->
+                    <h6 class="mb-0">FRUTTI DI MARE</h6>
+                    <p class="mb-0">
+                      Pasta med tomatsås, scampi (MSC), musslor, lök, vitlök,
+                      chili och persilja.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Pasta with tomato sauce, scampi (MSC), mussels, onion,
+                      garlic, chili and parsley.
+                    </p>
+                    <p class="mb-4">Pris: 265:-</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Pasta slut -->
+
+              <!-- COLLAPSE Secondi -->
+
+              <div class="container-fluid my-5 py-2 text-center">
+                <h5 class="text-uppercase pt-4 mb-4 d-inline mx-3">Secondi</h5>
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSecondi"
+                  aria-expanded="false"
+                  aria-controls="collapseSecondi"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-bar-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"
+                    />
+                  </svg>
+                </button>
+
+                <div class="collapse" id="collapseSecondi">
+                  <div class="card card-body">
+                    <!-- Rätt 1 -->
+                    <h6 class="mb-0">INSALATA CAESAR</h6>
+                    <p class="mb-0">
+                      Caesarsallad med kyckling, soltorkade tomater, dressing,
+                      citron, brödkrutonger och parmesanost.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Caesar salad with chicken fillet, sun-dried tomatoes,
+                      dressing, lemon, bread croutons and parmesan cheese.
+                    </p>
+                    <p class="mb-4">Pris: 225:-</p>
+
+                    <!-- Rätt 2 -->
+                    <h6 class="mb-0">COTOLETTA ALLA MILANESE</h6>
+                    <p class="mb-0">
+                      Panerad kalvschnitzel med sardellsmör, salviasky och
+                      grillad citron.Serveras med friterad potatis.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Breaded veal escalope with anchovise butter, sage sauce
+                      and grilled lemon. Served with fried potato.
+                    </p>
+                    <p class="mb-4">Pris: 295:-</p>
+
+                    <!-- Rätt 3 -->
+                    <h6 class="mb-0">PESCE DELLA SERA</h6>
+                    <p class="mb-0">Fråga efter kvällens fisk.</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Ask for the evening fish.
+                    </p>
+                    <p class="mb-4">Pris: -</p>
+
+                    <!-- Rätt 4 -->
+                    <h6 class="mb-0">ENTRECOTE</h6>
+                    <p class="mb-0">
+                      Entrecote med grönpepparsmör och gratinerad fylld
+                      bakpotatis med ost och salsiccia.Haricot verts och tomat.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Beef entrecote with green pepper flavored butter and
+                      gratinated stuffed potato with cheese and salsiccia.
+                      Haricots verts and tomato.
+                    </p>
+                    <p class="mb-4">Pris: 345:-</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Secondi slut -->
+
+              <!-- COLLAPSE Dolci -->
+
+              <div class="container-fluid my-5 py-2 text-center">
+                <h5 class="text-uppercase pt-4 mb-4 d-inline mx-3">Dolci</h5>
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseDolci"
+                  aria-expanded="false"
+                  aria-controls="collapseDolci"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-bar-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"
+                    />
+                  </svg>
+                </button>
+
+                <div class="collapse" id="collapseDolci">
+                  <div class="card card-body">
+                    <!-- Rätt 1 -->
+                    <h6 class="mb-0">GELATO E SORBETTO</h6>
+                    <p class="mb-0">Glass och sorbet.</p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Choose between ice cream and sorbet.
+                    </p>
+                    <p class="mb-4">Pris: 40:-/st</p>
+
+                    <!-- Rätt 2 -->
+                    <h6 class="mb-0">JENNI’S BISKVIER</h6>
+                    <p class="mb-0">
+                      Chokladdoppade mandelbiskvier, fylld med smörkräm smaksatt
+                      med italiensk brandy.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Chocolate dipped almond bisquites filled with brandy
+                      flavored buttercream.
+                    </p>
+                    <p class="mb-4">Pris: 40:-</p>
+
+                    <!-- Rätt 3 -->
+                    <h6 class="mb-0">PISTACCHI</h6>
+                    <p class="mb-0">
+                      Pistagekräm med lime- och basilikamarinerade
+                      jordgubbar.Toppas med rostad vit choklad.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Pistachio creme with lime- and basil marinated
+                      strawberries. Topped with roasted white chocolate.
+                    </p>
+                    <p class="mb-4">Pris: 95:-</p>
+
+                    <!-- Rätt 4 -->
+                    <h6 class="mb-0">TIRAMISU</h6>
+                    <p class="mb-0">
+                      Italiensk dessert smaksatt med espresso och ägglikör från
+                      G. Bertagnolli.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">
+                      //Italian dessert with espresso and egg liqueur from G.
+                      Bertagnolli.
+                    </p>
+                    <p class="mb-4">Pris: 115:-</p>
+
+                    <!-- Rätt 5 -->
+                    <h6 class="mb-0">CRÈME BRÛLÉE</h6>
+                    <p class="mb-0">
+                      Klassisk crème brûlée med smak av vanilj.
+                    </p>
+                    <p class="fs-6 fst-italic mb-0">//Vanilla crème brûlée.</p>
+                    <p class="mb-4">Pris: 125:-</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Dolci slut -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Bild bredvid navbar -->
+
+        <div class="col-12 col-lg-6 mb-5 order-lg-1">
+          <img
+            src="images/2-om-oss.webp"
+            style="width: 100%"
+            class="home__thumbnail"
+            alt="pasta och ett glas rött vin"
+          />
+        </div>
+      </div>
+
+      <!-- Slutet på wrapper  -->
+    </div>
+    <!-- Slutet på wrapper  -->
+
+    <!-- Footer start -->
+
+    <!-- Adress -->
+
+    <div class="container-fluid footer--bg flex-wrap">
+      <footer class="py-5 px-4">
+        <div class="row justify-content-center">
+          <div class="col-6 col-sm-5 col-md-3 mb-3">
+            <h5 class="text-uppercase">La Bella Italia</h5>
+            <p>
+              Gatanvägen 12<br />
+              786 65 Staden<br />
+              info@labellaitalia.se<br />
+              (+46)073-125 47 89
+            </p>
+          </div>
+
+          <!-- Länkar -->
+
+          <div class="col-6 col-sm-3 mb-3 text-md-center">
+            <h5>Länkar</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Meny</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Viner</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Om oss</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Kontakt</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Hitta hit</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Sociala medier -->
+
+          <div class="col-12 col-sm-3 mb-3 text-md-end">
+            <h5>Följ oss</h5>
+            <ul class="nav justify-content-md-end">
+              <li class="nav-item mb-2 mx-3">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    /></svg
+                ></a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-facebook"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                    /></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+
+        <div
+          class="d-flex flex-column flex-sm-row px-3 py-4 my-4 border-top border-dark"
+        >
+          <p>&copy; 2024 La Bella Italia, Inc. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Footer end -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
