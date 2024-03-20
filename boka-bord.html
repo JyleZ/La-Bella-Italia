@@ -56,7 +56,12 @@
                       </a>
                       <ul class="dropdown-menu">
                         <li>
-                          <a class="dropdown-item" href="om-oss.html">Om oss</a>
+                          <a
+                            class="dropdown-item active"
+                            aria-current="page"
+                            href="om-oss.html"
+                            >Om oss</a
+                          >
                         </li>
                         <li>
                           <a class="dropdown-item" href="kontakt.html"
@@ -69,10 +74,7 @@
                           >
                         </li>
                         <li>
-                          <a
-                            class="dropdown-item active"
-                            aria-current="page"
-                            href="boka-bord.html"
+                          <a class="dropdown-item" href="boka-bord.html"
                             >Boka bord</a
                           >
                         </li>
@@ -91,8 +93,8 @@
 
           <!-- Dropdownmeny -->
           <form>
-            <div class="row">
-              <div class="col-4">
+            <div class="row d-flex flex-column gap-1 gap-lg-0 flex-lg-row">
+              <div class="col col-lg-4">
                 <!-- Dropdown 1 - Antal personer -->
                 <select
                   class="form-select w-100"
@@ -109,7 +111,7 @@
                 </select>
               </div>
 
-              <div class="col-4">
+              <div class="col col-lg-4">
                 <!-- Dropdown 2 - Datum -->
                 <select
                   class="form-select w-100"
@@ -126,7 +128,7 @@
                 </select>
               </div>
 
-              <div class="col-4">
+              <div class="col col-lg-4">
                 <!-- Dropdown 3 - Tid -->
                 <select
                   class="form-select w-100"
@@ -227,20 +229,37 @@
             <h5>Länkar</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Meny</a>
+                <a href="meny.html" class="nav-link p-0 text-body-secondary"
+                  >Meny</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Viner</a>
+                <a href="viner.html" class="nav-link p-0 text-body-secondary"
+                  >Viner</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Om oss</a>
+                <a href="om-oss.html" class="nav-link p-0 text-body-secondary"
+                  >Om oss</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Kontakt</a>
+                <a href="kontakt.html" class="nav-link p-0 text-body-secondary"
+                  >Kontakt</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
+                <a
+                  href="hitta-hit.html"
+                  class="nav-link p-0 text-body-secondary"
                   >Hitta hit</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="boka-bord.html"
+                  class="nav-link p-0 text-body-secondary"
+                  >Boka Bord</a
                 >
               </li>
             </ul>
@@ -296,6 +315,6 @@
     </div>
 
     <!-- Footer end -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
