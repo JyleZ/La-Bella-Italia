@@ -10,6 +10,29 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("a")
+          .mouseenter(function () {
+            $(this).css("font-size", "20px")
+          })
+          .mouseleave(function () {
+            $(this).css("font-size", "")
+          })
+
+        $("#knappToggle")
+          .css("border", "0px")
+          .css("background-color", "transparent")
+        $("#knappToggle").click(function () {
+          $("#kartan").toggle()
+        })
+      })
+    </script>
     <title>La Bella Italia</title>
   </head>
   <body>
@@ -92,11 +115,15 @@
           <hr />
 
           <img
+            id="kartan"
             class="py-3"
             src="images/karta.webp"
             alt="En bild på en karta"
             style="width: 100%"
           />
+          <div class="col-4 btn btn-light">
+            <button id="knappToggle">Visa/Dölj kartan</button>
+          </div>
 
           <p class="pt-3 text-center mb-0">Gatanvägen 12</p>
           <p class="text-center">786 65 Staden</p>

@@ -10,6 +10,10 @@
   font-size: 18px;
 }
 
+#omOssBild {
+  opacity: 0;
+}
+
 @media (max-width: 991px) {
   .home__thumbnail {
     height: 800px;
